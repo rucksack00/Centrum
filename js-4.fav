@@ -1,0 +1,40 @@
+
+(function() {
+	var script = document.createElement("script");
+	script.setAttribute("async", "async");
+	script.addEventListener("load", function() {
+
+		var variables = [
+			/* Site = */ "Spabylinowa.pl",
+			/* Section = */ ""
+		];
+		
+		_WAF.construct("//delivery.way2traffic.com");
+		_WAF.handle(_WAF.CODE_TRACKER, ["4396", "Audience", variables]);
+
+	});
+	script.src = "//static.way2traffic.com/_waf.js";
+	document.head.appendChild(script);
+})();
+
+
+ 
+(function() {
+	var script = document.createElement("script");
+	script.setAttribute("async", "async");
+	script.addEventListener("load", function() {
+
+		var variables = [
+			/* Site = */ "Spabylinowa.pl",
+			/* Section = */ "Spabylinowa.pl-Kontakt"
+		];
+		
+		_WAF.construct("//delivery.way2traffic.com");
+		_WAF.handle(_WAF.CODE_TRACKER, ["4396", "Audience", variables]);
+
+	});
+	script.src = "//static.way2traffic.com/_waf.js";
+	document.head.appendChild(script);
+})();
+
+
